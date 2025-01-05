@@ -1,6 +1,6 @@
 module examplesite.com
 
-go 1.20
+go 1.19
 
 require (
 	github.com/gethugothemes/hugo-modules/accordion v0.0.0-20240925042433-d2b5d05977e8 // indirect
