@@ -38,8 +38,8 @@ preloader = "" # use jpg, png, svg or gif format. example - "images/preloader.gi
 # Navigation buttons
 [navigation_button]
 enable = true
-label = "Join an event via Meetup"
-link = "contact"
+label = "Join a event via Meetup"
+link = "https://www.meetup.com/glasgow-azure-user-group"
 
 
 # crisp chat
@@ -52,8 +52,8 @@ crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code wi
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Hugo", "Themefisher", "Gethugothemes"]
-description = "This is meta description"
-author = "Gethugothemes"
+description = "Microsoft Azure user group based in Glasgow, Scotland."
+author = "Glasgow Azure User Group"
 image = "images/logo.png"                           # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
@@ -109,3 +109,13 @@ link = "https://www.twitter.com/glasgowazureug"
 title = "linkedin"
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.linkedin.com/company/glasgowazureug/"
+
+[[social]]
+title = "youtube"
+icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.youtube.com/watch?v=WgFjVsvNbhA&list=PLbjernQTVXit6jd2Cb4Z4872eudxqAPJ8"
+
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.facebook.com/glasgowazureug"
