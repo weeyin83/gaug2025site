@@ -4,7 +4,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	
 	<meta charset="utf-8">
-<title>Latest News</title>
+<title>Past events</title>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -54,6 +54,7 @@
 
 
 
+  <base href="//localhost:1313/blog/" />
 
 
 
@@ -64,7 +65,7 @@
   
 
 
-<title>Latest News</title>
+<title>Past events</title>
 
 
 
@@ -89,7 +90,7 @@
 
 <meta
   name="description"
-  content="Read all latest blog posts" />
+  content="Event history" />
 
 
 
@@ -159,14 +160,14 @@
 
 
 
-<meta property="og:title" content="Latest News" />
-<meta property="og:description" content="Read all latest blog posts" />
+<meta property="og:title" content="Past events" />
+<meta property="og:description" content="Event history" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/blog/" />
+<meta property="og:url" content="//localhost:1313/blog/" />
 
 
-<meta name="twitter:title" content="Latest News" />
-<meta name="twitter:description" content="Read all latest blog posts" />
+<meta name="twitter:title" content="Past events" />
+<meta name="twitter:description" content="Event history" />
 
 
 
@@ -195,6 +196,37 @@
       </script>
 
 
+
+<script>
+  !(function () {
+    let t = 0;
+    document.addEventListener("mousemove", function () {
+      1 == ++t && gtmLoader();
+    }),
+      (window.onscroll = function (n) {
+        1 == ++t &&gtmLoader();
+      }),
+      setTimeout(function () {
+        0 === t && (t++, gtmLoader());
+      }, 5e3);
+  })();
+
+  function gtmLoader() {
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "G-SN8413PDZ2");
+  }
+</script>
 
 
 
@@ -311,7 +343,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="//localhost:1313/">
         
 
 
@@ -396,7 +428,13 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/blog" title="Blog">Blog</a>
+            <a class="nav-link" href="/events" title="Events">Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/blog" title="Past events">Past events</a>
           </li>
           
           
@@ -439,9 +477,9 @@
 
 <section class="section pb-0">
   <div class="container text-center">
-    <h1 class="display-3 fw-medium">Latest News</h1>
+    <h1 class="display-3 fw-medium">Past events</h1>
     
-    <p>Read all latest blog posts</p>
+    <p>Event history</p>
     
   </div>
 </section>
@@ -450,133 +488,6 @@
   <div class="container">
     <div class="row gx-md-5 gy-6">
       
-      <div class="col-12 mb-5 pb-5">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0">
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/images/blog/post-1_hu3477279130226339261.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/images/blog/post-1_hu12350398236857777752.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/images/blog/post-1_hu15489233656880871817.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/images/blog/post-1_hu11904293739105366689.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/images/blog/post-1_hu9390316070186200910.jpg"
-            class=" rounded-2 w-100 img"
-            alt="Adversus is a web-based dialer and practical CRM solution"
-            width="1600"
-            height="800" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-          </div>
-          <div class="col-md-6">
-            <h2 ><a href="http://localhost:1313/blog/post-1/" title="Adversus is a web-based dialer and practical CRM solution" class="text-dark d-inline-block">Adversus is a web-based dialer and practical CRM solution</a></h2>
-            <p class="mb-4"><p>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</p></p>  
-            <a href="http://localhost:1313/blog/post-1/" title="Read More - Adversus is a web-based dialer and practical CRM solution" class="btn btn-sm btn-primary">Read More</a>
-          </div>
-        </div>
-      </div>
-      
       
       
       <div class="col-lg-4 col-sm-6 pb-4">
@@ -656,16 +567,16 @@
 
         <img
           
-            src="/images/blog/post-5_hu17800939009458126307.webp" loading="lazy"
+            src="/images/gaug-2024_hu3191559583347316200.webp" loading="lazy"
             decoding="async"
           
 
-          alt="Adversus is a web-based dialer and practical CRM solution"
+          alt="2018 events"
           class=" rounded-2 mb-4 img"
           width="460"
-          height="230"
+          height="460"
           onerror="this.onerror='null';
-          this.src='\/images\/blog\/post-5_hu17900711997110378206.jpg';" />
+          this.src='\/images\/gaug-2024_hu5649626032819341741.png';" />
 
         
       
@@ -679,9 +590,9 @@
 
 
           <div class="card-body p-0">
-            <h3><a href="http://localhost:1313/blog/post-5/" title="Adversus is a web-based dialer and practical CRM solution" class="text-dark d-inline-block">Adversus is a web-based dialer and practical CRM solution</a></h3>
-            <p class="mb-4"><p>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</p></p>
-            <a href="http://localhost:1313/blog/post-5/" title="Read More - Adversus is a web-based dialer and practical CRM solution" class="btn btn-sm btn-primary btn-sm">Read More</a>
+            <h3><a href="//localhost:1313/blog/2018/" title="2018 events" class="text-dark d-inline-block">2018 events</a></h3>
+            <p class="mb-4"><p>A look back at 2018 events and who our speakers were.</p></p>
+            <a href="//localhost:1313/blog/2018/" title="Read More - 2018 events" class="btn btn-sm btn-primary btn-sm">Read More</a>
           </div>
         </div>
       </div>
@@ -763,16 +674,16 @@
 
         <img
           
-            src="/images/blog/post-6_hu3542045557603089897.webp" loading="lazy"
+            src="/images/gaug-2024_hu3191559583347316200.webp" loading="lazy"
             decoding="async"
           
 
-          alt="Adversus is a web-based dialer and practical CRM solution"
+          alt="2017 events"
           class=" rounded-2 mb-4 img"
           width="460"
-          height="230"
+          height="460"
           onerror="this.onerror='null';
-          this.src='\/images\/blog\/post-6_hu13575446430297467271.jpg';" />
+          this.src='\/images\/gaug-2024_hu5649626032819341741.png';" />
 
         
       
@@ -786,9 +697,9 @@
 
 
           <div class="card-body p-0">
-            <h3><a href="http://localhost:1313/blog/post-6/" title="Adversus is a web-based dialer and practical CRM solution" class="text-dark d-inline-block">Adversus is a web-based dialer and practical CRM solution</a></h3>
-            <p class="mb-4"><p>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</p></p>
-            <a href="http://localhost:1313/blog/post-6/" title="Read More - Adversus is a web-based dialer and practical CRM solution" class="btn btn-sm btn-primary btn-sm">Read More</a>
+            <h3><a href="//localhost:1313/blog/2017/" title="2017 events" class="text-dark d-inline-block">2017 events</a></h3>
+            <p class="mb-4"><p>A look back at 2017 events and who our speakers were.</p></p>
+            <a href="//localhost:1313/blog/2017/" title="Read More - 2017 events" class="btn btn-sm btn-primary btn-sm">Read More</a>
           </div>
         </div>
       </div>
@@ -922,7 +833,7 @@
               
             </div>
             <div class="col-lg-3 col-sm-6">
-              <a class="d-block h5 mb-3" href="http://localhost:1313/">
+              <a class="d-block h5 mb-3" href="//localhost:1313/">
                 
 
 
@@ -1007,6 +918,9 @@
                 
                 <li class="list-inline-item"><a href="https://www.facebook.com/glasgowazureug" title="facebook"><i
                       class="fab fa-facebook"></i></a></li>
+                
+                <li class="list-inline-item"><a href="https://www.meetup.com/glasgow-azure-user-group" title="meetup"><i
+                      class="fab fa-meetup"></i></a></li>
                 
               </ul>
               

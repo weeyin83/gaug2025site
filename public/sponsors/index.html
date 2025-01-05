@@ -54,6 +54,7 @@
 
 
 
+  <base href="//localhost:1313/sponsors/" />
 
 
 
@@ -162,7 +163,7 @@
 <meta property="og:title" content="Sponsors" />
 <meta property="og:description" content="This is meta description" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/sponsors/" />
+<meta property="og:url" content="//localhost:1313/sponsors/" />
 
 
 <meta name="twitter:title" content="Sponsors" />
@@ -195,6 +196,37 @@
       </script>
 
 
+
+<script>
+  !(function () {
+    let t = 0;
+    document.addEventListener("mousemove", function () {
+      1 == ++t && gtmLoader();
+    }),
+      (window.onscroll = function (n) {
+        1 == ++t &&gtmLoader();
+      }),
+      setTimeout(function () {
+        0 === t && (t++, gtmLoader());
+      }, 5e3);
+  })();
+
+  function gtmLoader() {
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "G-SN8413PDZ2");
+  }
+</script>
 
 
 
@@ -311,7 +343,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="//localhost:1313/">
         
 
 
@@ -396,7 +428,13 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/blog" title="Blog">Blog</a>
+            <a class="nav-link" href="/events" title="Events">Events</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/blog" title="Past events">Past events</a>
           </li>
           
           
@@ -576,7 +614,7 @@
               
             </div>
             <div class="col-lg-3 col-sm-6">
-              <a class="d-block h5 mb-3" href="http://localhost:1313/">
+              <a class="d-block h5 mb-3" href="//localhost:1313/">
                 
 
 
@@ -661,6 +699,9 @@
                 
                 <li class="list-inline-item"><a href="https://www.facebook.com/glasgowazureug" title="facebook"><i
                       class="fab fa-facebook"></i></a></li>
+                
+                <li class="list-inline-item"><a href="https://www.meetup.com/glasgow-azure-user-group" title="meetup"><i
+                      class="fab fa-meetup"></i></a></li>
                 
               </ul>
               

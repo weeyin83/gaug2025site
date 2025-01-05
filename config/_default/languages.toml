@@ -12,16 +12,3 @@ footer_menu_right = "Support"
 footer_content = "The Glasgow Azure User Group is a community driven group based in Glasgow, Scotland. "
 
 
-################################### Deutsch language #####################################
-[de]
-languageName = "DE"
-languageCode = "de-DE"
-contentDir = "content/deutsch"
-weight = 2
-[de.params]
-########### footer content ##########
-footer_menu_left = "Firma"
-footer_menu_middle = "Produkte"
-footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
-

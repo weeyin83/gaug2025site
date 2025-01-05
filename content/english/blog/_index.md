@@ -1,7 +1,7 @@
 ---
-title: "Latest News"
-subtitle: "Read all latest blog posts"
+title: "Past events"
+subtitle: "Event history"
 # meta description
-description: "Read all latest blog posts"
+description: "Event history"
 draft: false
 ---
