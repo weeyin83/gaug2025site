@@ -1,0 +1,15 @@
+{
+  "name": "Glasgow Azure User Group",
+  "short_name": "Glasgow Azure User Group",
+  "lang": "en-US",
+  "display": "fullscreen",
+  "orientation" : "portrait",
+  "start_url": "http://localhost:1313/bigspring/site/?utm_source=web_app_manifest",
+  "background_color": "#fff",
+  "theme_color": "#008AD7",
+
+  
+  
+  
+  
+}
