@@ -12,3 +12,5 @@ Some hints to help when updating the site later:
 - hugo.toml is the file you want if you want to change the colour scheme of the site.  I changed the color_primary and light colours fron the original green to a more azure related blue. 
 
 - The contact page uses a form that uses Formspree to help make it work. 
+
+- There is a devcontainer file that will open up a Ubuntu Dev Container within VS Code with Git, Go and Hugo Extended installed to help with editing etc. 
