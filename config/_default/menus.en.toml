@@ -48,9 +48,7 @@ name = "FAQs"
 url = "/faq"
 
 
-
-
-# footer menu right
+# footer menu middle
 [[footer_middle]]
 name = "Code of Conduct"
 url = "/conduct"
