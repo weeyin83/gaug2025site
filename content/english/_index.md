@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "Glasgow Azure User Group"
-  image : "images/gaug.png"
+  image : "images/screenshot.svg"
   content : Welcome to the Glasgow Azure User Group! This user group was founded as an independent body in early 2017 and it looks to bring the IT community within Glasgow and surrounding areas together. The group is a community driven group delivering the type of content, speakers and experiences that the IT community in Glasgow wants. The group is open to developers, architects, consultants, engineers and enthusiasts. 
   button:
     enable : true
