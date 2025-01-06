@@ -6,8 +6,8 @@ banner:
   content : Welcome to the Glasgow Azure User Group! This user group was founded as an independent body in early 2017 and it looks to bring the IT community within Glasgow and surrounding areas together. The group is a community driven group delivering the type of content, speakers and experiences that the IT community in Glasgow wants. The group is open to developers, architects, consultants, engineers and enthusiasts. 
   button:
     enable : true
-    label : "Contact Us"
-    link : "contact/"
+    label : "Join an event via Meetup"
+    link : "https://www.meetup.com/glasgow-azure-user-group"
 
 
 
@@ -61,7 +61,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "#"
+        link : "/events"
 
         
     # service item loop
@@ -73,8 +73,8 @@ service:
 If you’ve never done any public speaking before, speaking at user group is a great place to start."
       button:
         enable : true
-        label : "Check it out"
-        link : "#"
+        label : "Apply to speak"
+        link : "https://forms.office.com/Pages/ResponsePage.aspx?id=cFpHdAFtYkCSwQL-IpefXkK-iRNe9bNLqO5y7J8Ud59UOFlVQjhIM1ZJQ0hRUU1YTkZTUVZVODlTSi4u"
         
     # service item loop
     - title : "Newsletter"

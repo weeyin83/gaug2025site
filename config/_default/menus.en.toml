@@ -43,6 +43,10 @@ url = "/organisers"
 name = "Sponsors"
 url = "/sponsors"
 
+[[footer_left]]
+name = "FAQs"
+url = "/faq"
+
 
 # footer menu middle
 [[footer_middle]]

@@ -38,8 +38,8 @@ preloader = "" # use jpg, png, svg or gif format. example - "images/preloader.gi
 # Navigation buttons
 [navigation_button]
 enable = true
-label = "Join a event via Meetup"
-link = "https://www.meetup.com/glasgow-azure-user-group"
+label = "Contact us"
+link = "contact"
 
 
 # crisp chat
