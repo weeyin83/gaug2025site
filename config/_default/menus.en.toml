@@ -48,24 +48,17 @@ name = "FAQs"
 url = "/faq"
 
 
-# footer menu middle
-[[footer_middle]]
-name = "blah"
-url = "/blah"
 
-[[footer_middle]]
-name = "blah2"
-url = "#"
-
-[[footer_middle]]
-name = "blah3"
-url = "#"
 
 # footer menu right
-[[footer_right]]
+[[footer_middle]]
 name = "Code of Conduct"
 url = "/conduct"
 
-[[footer_right]]
+[[footer_middle]]
 name = "Privacy policy"
 url = "/privacy"
+
+[[footer_middle]]
+name = "Contact us"
+url = "/contact"

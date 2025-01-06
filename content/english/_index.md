@@ -92,12 +92,13 @@ So why not sign up and join in the fun! 😉"
 
 ##################### Call to action #####################
 call_to_action:
-  enable : true
-  title : "Ready to get started?"
-  image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  enable: true
+  title: "Join Us at Our Next Event"
+  image: "images/GAUGBridgeCircular.png"
+  content: "Sign up for free and join us at our next event via Meetup. Don’t miss out on networking and learning opportunities!"
   button:
-    enable : true
-    label : "Contact Us"
-    link : "contact/"
+    enable: true
+    label: "RSVP Now"
+    link: "https://www.meetup.com/glasgow-azure-user-group"
 ---
+
