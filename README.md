@@ -10,3 +10,5 @@ Some hints to help when updating the site later:
 - The params.toml file is where a lot of thing are defined, header logo, favicon, social media icons etc. Google analytics etc. 
 
 - hugo.toml is the file you want if you want to change the colour scheme of the site.  I changed the color_primary and light colours fron the original green to a more azure related blue. 
+
+- The contact page uses a form that uses Formspree to help make it work. 

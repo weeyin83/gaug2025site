@@ -7,10 +7,16 @@ draft: false
 layout: "contact"
 ---
 
+### Why You Should Contact Us
 
-#### Why you should contact us!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+We’re excited to hear from you! Whether you have a question, a suggestion, or would like to get involved, our contact form is the easiest way to reach us.
 
-* **Phone: +88 125 256 452** 
-* **Mail: info@bigspring.com**
-* **Address: 360 Main rd, Rio, Brazil**
+
+- Are you looking to share your expertise at one of our events? Get in touch to discuss speaking opportunities.
+
+- If you're interested in sponsoring our events and supporting the community, we’d love to hear from you. Let’s talk about how you can get involved.
+
+- From event locations to scheduling, our contact form is the quickest way to get answers to any logistical questions.
+
+We are here to help and look forward to connecting with you soon!
+
