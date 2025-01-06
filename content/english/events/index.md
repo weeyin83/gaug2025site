@@ -22,3 +22,15 @@ We aim to hold a meetup every two months, all **free** at the point of use thank
 ### Upcoming Events
 ! 2025 dates to be announced soon !
 
+---
+
+## Speaking at Our Events
+Interested in speaking at one of our meetups? We’re always looking for fresh perspectives and exciting topics to showcase at our events. If you have a session idea you'd like to share, we encourage you to submit it via Sessionize!
+
+You can submit your session ideas by clicking the link below. We're excited to hear from you!
+
+<div style="display: flex; justify-content: center; gap: 1rem; margin: 2rem 0;">
+  <a href="https://sessionize.com/glasgow-azure-user-group-2025/" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; padding: 0.5rem 1rem; background-color: #3498db; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 1rem; width: 150px; height: 50px; text-align: center;">
+    <i class="fas fa-microphone" style="margin-right: 0.5rem;"></i> Sessionize
+  </a>
+</div>

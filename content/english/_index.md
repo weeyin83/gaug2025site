@@ -74,7 +74,7 @@ If you’ve never done any public speaking before, speaking at user group is a g
       button:
         enable : true
         label : "Apply to speak"
-        link : "https://forms.office.com/Pages/ResponsePage.aspx?id=cFpHdAFtYkCSwQL-IpefXkK-iRNe9bNLqO5y7J8Ud59UOFlVQjhIM1ZJQ0hRUU1YTkZTUVZVODlTSi4u"
+        link : "https://sessionize.com/glasgow-azure-user-group-2025/"
         
     # service item loop
     - title : "Newsletter"
