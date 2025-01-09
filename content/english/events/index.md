@@ -2,7 +2,7 @@
 title: "Events"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "Glasgow Azure User Group event information."
 draft: false
 ---
 

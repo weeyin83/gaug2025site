@@ -2,7 +2,7 @@
 title: "Frequently Asked Questions"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "FAQ for Glasgow Azure User Group."
 draft: false
 ---
 

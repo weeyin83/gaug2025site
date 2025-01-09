@@ -2,7 +2,7 @@
 title: "Privacy Policy"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "This is the Glasgow Azure User Group's website privacy policy. "
 draft: false
 ---
 
